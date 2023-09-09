@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(242,243,245);
+}
+.contact-form{
+  
+ 
+    width: 990px;
+    margin: 30px auto;
+}
+
+
+.btn{
+    background-color: black;
+    color: white;
+    width:100%;
+    padding:18px 0 16px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid rgb(192,193,195);
+}
+input[tupe="text"],input[tupe="email"],input[tupe="tel"],
+textarea{
+    border: 1px solid rgb(192,193,195);
+    color: rgb(117,117,117);
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+
+textarea{
+    margin: 20px 0px;
+    width: 100%;
+    margin: 15px 0;
+
+}
+.FirstName{
+    width: 470px;
+    height: 45px;
+    margin: 15px 0;
+}
+.lastname{
+    width: 470px;
+    height: 45px;
+    float:right;
+    margin: 15px 0;
+}
+.email{
+    width: 470px;
+    height: 45px;
+    margin: 15px 0;
+}
+.phone{
+    width: 470px;
+    height: 45px;
+    float:right;
+    margin: 15px 0;
+}
+select{
+    width: 470px;
+    height: 45px;
+    margin: 15px 0;
+    color: rgb(117,117,117);
+
+}
+#course{
+    float: right;
+}
